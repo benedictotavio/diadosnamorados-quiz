@@ -32,39 +32,52 @@ const perguntas = [
     },
     // Pergunta 5
     {
-        pergunta: "Qual o mangá mais vendido de todos os tempos?",
-        respostas: ["One Piece", "DragonBall", "Black Jack", "Naruto"],
-        correta: "resp0"
+        pergunta: "Qual o meu filme favorito?",
+        respostas: ["Tropa de Elite", "O Lutador", "Jobs", "A Rede Social"],
+        correta: "resp3",
+        imagem: "./_imgs/5-Rede-Social.png"
     },
     // Pergunta 6
     {
-        pergunta: "Qual o nome do primeiro mangaka?",
-        respostas: ["Ozamo Tezuka", "Doraemon", "Sazae-san", "Oyako Club"],
-        correta: "resp0"
+        pergunta: "Qual foi o meu primeiro carro?",
+        respostas: ["Celta", "Duster", "Strada", "Corsa"],
+        correta: "resp0",
+        imagem: "./_imgs/6-Celta.png"
     },
     // Pergunta 7
     {
-        pergunta: "Qual o animes com maior numero de episódios na historia?",
-        respostas: ["One Piece", "Doraemon", "Sazae-san", "Oyako Club"],
-        correta: "resp2"
+        pergunta: "Qual meu maior medo?",
+        respostas: ["Aranha", "Escuro", "Altura", "Gato"],
+        correta: "resp2",
+        imagem: "./_imgs/7-Altura.png"
     },
     // Pergunta 8
     {
-        pergunta: "Qual o animes com maior numero de episódios na historia?",
-        respostas: ["One Piece", "Doraemon", "Sazae-san", "Oyako Club"],
-        correta: "resp2"
+        pergunta: "Qual o meu maior idolo?",
+        respostas: ["Mark Zuckenberg", "Michael Jackson", "Neymar Jr", "Steve Jobs"],
+        correta: "resp3",
+        imagem: "./_imgs/8-Jobs.png"
     },
     // Pergunta 9
     {
-        pergunta: "Qual o animes com maior numero de episódios na historia?",
-        respostas: ["One Piece", "Doraemon", "Sazae-san", "Oyako Club"],
-        correta: "resp2"
+        pergunta: "Que dia e mês nós nos conhecemos?",
+        respostas: ["18 de Dezembro", "20 de Dezembro", "19 de Dezembro", "17 de Dezembro"],
+        correta: "resp0",
+        imagem: "./_imgs/9-Arena.png"
     },
     // Pergunta 10
     {
-        pergunta: "Qual o animes com maior numero de episódios na historia?",
-        respostas: ["One Piece", "Doraemon", "Sazae-san", "Oyako Club"],
-        correta: "resp2"
+        pergunta: "Qual meu jogo de PC favorito?",
+        respostas: ["League of Legends", "CS:GO", "Tibia", "Dota"],
+        correta: "resp2",
+        imagem: "./_imgs/10-Tibia.png"
+    },
+    // Pergunta 11
+    {
+        pergunta: "",
+        respostas: ["League of Legends", "CS:GO", "Tibia", "Dota"],
+        correta: "resp2",
+        imagem: "./_imgs/10-Tibia.png"
     }
 ]
 
