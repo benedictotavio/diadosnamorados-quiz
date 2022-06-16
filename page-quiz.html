@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game-style.css">
+    <title>Game Quiz Anime</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="quiz" data-status="ok">
+         <h2 id="pergunta"> Aqui vai a pergunta ? </h2>
+         <div id="respostas">
+         <button id="resp0" class="resp"></button>
+         <button id="resp1" class="resp"></button>
+         <button id="resp2" class="resp"></button>
+         <button id="resp3" class="resp"></button>
+        </div>
+        <button id="confirmar">Confimar</button>
+     </div>
+     <div id="status" class="hidden">
+       <h2 id="game-over">Game Over</h2>
+       <button id="confirm-new-game">Tentar Novamente</button>
+     </div>
+
+
+
+    <script src="js/game-code.js"></script>
+</body>
+</html>
