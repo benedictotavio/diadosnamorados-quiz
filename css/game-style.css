@@ -7,7 +7,13 @@ body{
     margin: 0;
 }
 #quiz{
-    margin-top: 10%;
+    margin-top: 4.5%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+div#quiz div{
+    margin: 2%;
 }
 button{
     display: block;
@@ -60,9 +66,28 @@ button#confirm-new-game{
     margin: auto;
 }
 div#status{
-    margin-top: 10%;
+    margin-top: 2%;
     padding: 10px;
 }
 .hidden{
     display: none;
+}
+div#textoCorreta{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(236, 13, 58, 0.884);
+    height: 50%;
+    width: 20%;
+    animation: photoMove 800ms;
+}
+div#imgCorreta img{
+    animation: photoMove 850ms;
+}
+@keyframes photoMove {
+    from{
+        transform: translateY(50%);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
